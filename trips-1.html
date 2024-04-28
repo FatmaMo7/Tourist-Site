@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trip-show-1</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="devolum-navbar">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-md-2 col-12">
+            <div class="devolum-img-log">
+              <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo" /></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div>
+              <ul class="nav-list">
+                <li>
+                  <a  href="index.html">الرئيسية</a>
+                </li>
+                <li>
+                  <a href="about-us.html">من نحن</a>
+                </li>
+                <li>
+                  <div class="dropdown-nav-list">
+                    <a class="dropbtn" href="Trips-info.html"
+                      >الرحلات
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                      <div id="myDropdown" class="dropdown-content">
+                      <a  class="active" href="trips-1.html">مشاهدة الرحلات</a>
+                      <a href="trips-show-2.html">مشاهدة الرحلات</a>
+                      <a href="#">مشاهدة الرحلات</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="Gallery-img.html">معرض الصور</a>
+                </li>
+                <li>
+                  <a href="#">المدونة</a>
+                </li>
+                <li>
+                  <a href="#">آراء العملاء</a>
+                </li>
+                <li>
+                  <a href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="d-flex align-items-center">
+              <div class="select-box">
+                <div class="dropdown">
+                  <div class="">
+                    <i class="fa-solid fa-chevron-down"> </i> <span>EN</span>
+                  </div>
+                  <div class="dropdown-content">
+                    <p>AR</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="btns">
+                <a class="main-btn bg-blue">تسجيل دخول</a>
+                <a class="main-btn bg-red">انشاء حساب</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      
+   <div class="devolum-first-trip">
+     <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-xl-5 col-12">
+            <div class="content">
+              <div class="text">
+                <h1 class="contnet-devolum-title">
+                  لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس
+                  المحتوى)
+                </h1>
+                <p class="content-paragraph-text">
+                  هذا النص هو مثال لنص يمكن ان يستبدل في نفس هذه المساحه. لقد تم
+                  توليد هذا النص من مولد النص العربي.
+                </p>
+                 <div class="text-center show-more d-flex align-items-center ">
+                  <a href="#" class="main-btn bg-red d-flex align-items-center justify-content-center">مشاهدة الرحلات <i class="fa-solid fa-angles-left main-btn-angle"></i></a>
+                
+              </div>
+              </div>
+           <div class="devolum-trips-date">
+              <div class="date  date-main-page d-flex align-items-center justify-content-around" >
+                <div class="  devolum-location-section " >
+                 <div class="d-flex align-items-center justify-content-start">
+                   <i class="fa-solid fa-location-dot"></i>
+                  <p class="devolum-paragraph-date">
+                      اختر اسم المدينة 
+                    </p>
+                 </div>
+                  <div class="d-flex align-items-center justify-content-start">
+                  
+                      <select
+                        name="cars"
+                        id="cars"
+                        class="devolum-select-options " >
+                        <option value="Allentown">Allentown, New Mexico</option>
+                        <option value="Allentown">Allentown, New Mexico</option>
+                        <option value="Allentown">Allentown, New Mexico</option>
+                      </select>
+                  
+                  </div>
+                </div>
+                <div class="  devolum-date-section " >
+                 <div class="d-flex align-items-center justify-content-start"> <i class="fa-solid fa-calendar"></i>  
+                   <p class="devolum-paragraph-date">
+                    تاريخ السفر 
+                    </p> </div>
+                      <div class=""> <input type="text" id="datepicker" placeholder="04 Aug, 2022"></div>
+                 
+                </div>
+               
+                 <a href="#"
+                    ><i class="fa-solid fa-magnifying-glass devolum-search"></i
+                  ></a>
+              </div>
+           </div>
+            </div>
+          </div>
+          <div class="col-xl-7 col-12 ">
+            <div class="devolum-content-image  ">
+              <div
+                class="position-relative d-flex align-items-center justify-content-center"
+              >
+                <img src="assets/images/Images (1).png" class="content-img" alt="right" />
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+   </div>
+       
+
+    
+    </div>
+   
+
+    <!-- mobile navbar -->
+
+    <nav class="mobile-navigation">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-4">
+            <div class="logo">
+              <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo" /></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div
+              class="menu-icon d-flex align-items-center justify-content-end"
+            >
+              <div class="open-icon">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="exit-icon">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <div class="select-box px-0">
+                <div class="dropdown px-0">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-chevron-down"> </i> <span>EN</span>
+                  </div>
+                  <div class="dropdown-content">
+                    <p>AR</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-12">
+            <div class="list-container">
+              <ul class="nav-list">
+                <li
+                  class="d-flex w-100 align-items-center justify-content-between"
+                >
+                  <div class="logo">
+                   <a href="index.html"> <img src="./assets/images/logo.png" alt="" srcset="" /></a>
+                  </div>
+                </li>
+                <li>
+                  <a  href="index.html">الرئيسية</a>
+                </li>
+                <li>
+                  <a  href="about-us.html">من نحن</a>
+                </li>
+                <li>
+                  <div class="dropdown-nav-list">
+                    <a class="dropbtn-mobile" href="Trips-info.html"
+                      >الرحلات
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                      <div id="myDropdownMobile" class="dropdown-content-mobile">
+                      <a  class="active" href="trips-1.html">مشاهدة الرحلات</a>
+                      <a href="trips-show-2.html">مشاهدة الرحلات</a>
+                      <a href="#">مشاهدة الرحلات</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="Gallery-img.html">معرض الصور</a>
+                </li>
+                <li>
+                  <a href="#">المدونة</a>
+                </li>
+                <li>
+                  <a href="#">آراء العملاء</a>
+                </li>
+                <li>
+                  <a href="#">تواصل معنا</a>
+                </li>
+              </ul>
+              <div class="btns">
+                <a class="main-btn bg-blue">تسجيل دخول</a>
+                <a class="main-btn bg-red">انشاء حساب</a>
+              </div>
+              <div class="social-icon">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-soundcloud"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- datepicker -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+ 
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

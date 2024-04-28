@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery-img</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/fancybox.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="devolum-navbar">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-between">
+          <div class="col-md-2 col-12">
+            <div class="devolum-img-log">
+              <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo" /></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div>
+              <ul class="nav-list">
+                <li>
+                  <a  href="index.html">الرئيسية</a>
+                </li>
+                <li>
+                  <a  href="about-us.html">من نحن</a>
+                </li>
+                <li>
+                  <div class="dropdown-nav-list">
+                    <a class="dropbtn" href="Trips-info.html"
+                      >الرحلات
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                      <div id="myDropdown" class="dropdown-content">
+                      <a href="trips-1.html">مشاهدة الرحلات</a>
+                      <a href="trips-show-2.html">مشاهدة الرحلات</a>
+                      <a href="#">مشاهدة الرحلات</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="active" href="Gallery-img.html">معرض الصور</a>
+                </li>
+                <li>
+                  <a href="#">المدونة</a>
+                </li>
+                <li>
+                  <a href="#">آراء العملاء</a>
+                </li>
+                <li>
+                  <a href="#">تواصل معنا</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div class="d-flex align-items-center">
+              <div class="select-box">
+                <div class="dropdown">
+                  <div class="">
+                    <i class="fa-solid fa-chevron-down"> </i> <span>EN</span>
+                  </div>
+                  <div class="dropdown-content">
+                    <p>AR</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="btns">
+                <a class="main-btn bg-blue">تسجيل دخول</a>
+                <a class="main-btn bg-red">انشاء حساب</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      <div class="devolum-overly">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="text-center overly-text">
+               
+                <h2 class="about-text">
+                  عروض خاصة للوجهات الشتوية الرائعة
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   <div class="info-of-trips">
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-center ">
+        <div class="col-lg-1 col-md-2 col-4">
+          <div class="trips-info d-flex align-items-center justify-content-center ">
+            <i class="fa-regular fa-clock"></i>
+            <p class="devolum-trip-text">10 ايام</p>
+          </div>
+        </div>
+        <div class="col-lg-3  col-8">
+          <div class="trips-info d-flex align-items-center justify-content-center ">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <p class="devolum-trip-text">السعر يبدأ من <span class="trip-price"> 8100 </span> ريال سعودي</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+     <div class="devolum-gallery devolum-gallery-page ">
+          <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-lg-6 col-12">
+                <div>   
+                  <h2 class="gallery-main-title">
+                   استمتع بقضاء شهر العسل بين أحضان الطبيعة في جورجيا الساحرة
+                    10 أيام (9 ليالي) بين العاصمة تبليسي والطبيعة في باكورياني ولؤلؤة البحر الأسود باتومي وزيارة العديد من المدن السياحيـة
+                  </h2>
+                </div>
+              </div>
+             
+              <div class="col-12">
+                <div class="gallery">
+                  <div class="image">
+                    <a data-fancybox="gallery" href="https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"><img src="https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="image" /></a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">    <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1505178041309-ad46d2e4207b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">    <img src="https://images.unsplash.com/photo-1505178041309-ad46d2e4207b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1497114046243-1154db4f4abf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80">    <img src="https://images.unsplash.com/photo-1497114046243-1154db4f4abf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1573655349936-de6bed86f839?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGFic3RyYWN0JTIwJTIweWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">    <img src="https://images.unsplash.com/photo-1573655349936-de6bed86f839?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGFic3RyYWN0JTIwJTIweWVsbG93fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1541356665065-22676f35dd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80">    <img src="https://images.unsplash.com/photo-1541356665065-22676f35dd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=60">    <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWJzdHJhY3QlMjAlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">        <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWJzdHJhY3QlMjAlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="image" />
+
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFic3RyYWN0JTIwJTIwc2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">    <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFic3RyYWN0JTIwJTIwc2t5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image" />
+                </a>
+                    
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1497114046243-1154db4f4abf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80">    <img src="https://images.unsplash.com/photo-1497114046243-1154db4f4abf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">    <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="image" />
+                </a>
+                  </div>
+                  <div class="image">
+                    <a  data-fancybox="gallery" href="https://images.unsplash.com/photo-1541356665065-22676f35dd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80">    <img src="https://images.unsplash.com/photo-1541356665065-22676f35dd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80" alt="image" />
+                </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+         <div class="devolum-contact main-page-bg gallery-contact ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-12">
+              <div class="contact-text">
+                <h3 class="devolum-title">تواصل معنا</h3>
+                <h2 class="devolum-main-title">
+                  نحن هنا لمساعدتك في تخطيط رحلتك القادمة، اتصل بنا الآن للحصول
+                  على المزيد من المعلومات
+                </h2>
+              </div>
+            </div>
+            <div class="col-md-7 col-12">
+              <div class="contact-box"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+     <footer class="devolum-footer gallery-footer">
+        <div class="container">
+          <div class="row d-flex align-items-start justify-content-around py-5">
+            <div class="col-xl-4 col-12">
+              <div class="footer-logo">
+                <img src="assets/images/logo.png" alt="logo" />
+                <h4 class="devolum-footer-text">
+                  شركة سياحية رائدة تعمل على توفير تجارب سفر فريدة وممتعة، من
+                  خلال تقديم خدمات متكاملة تشمل الحجوزات، الرحلات الجوية
+                  والفنادق، بأنسب الأسعار وأعلى مستويات الجودة.
+                </h4>
+                <div class="social-icon">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                    ><i class="fa-brands fa-soundcloud"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-12">
+              <div class="devolum-list">
+                <h3 class="footer-list-title">قائمة الموقع</h3>
+                <ul class="footer-list">
+                  <li>الرئيسية</li>
+                  <li>من نحن</li>
+                  <li>الرحلات</li>
+                  <li>معرض الصور</li>
+                  <li>المدونة</li>
+                  <li>آراء العملاء</li>
+                  <li>تواصل معنا</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-12">
+              <div>
+                <h3 class="devolum-contact-title">وسائل الإتصال</h3>
+                <div class="contact-info">
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-3"
+                  >
+                    <i class="fa-regular fa-envelope"></i>
+                    <a class="link-show" target="_blank" href="mailto:info@shams-it.com "
+                      ><h4 class="devolum-footer-text">info@shams-it.com</h4></a
+                    >
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-center gap-3"
+                  >
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <a  class="link-show"
+                      target="_blank"
+                      href="https://api.whatsapp.com/send?phone=+201155800005&text=Hello, more infomrmation"
+                      ><h4 class="devolum-footer-text">01155800005</h4></a
+                    >
+                  </div>
+                </div>
+              <div class="devolum-map">
+                  <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.817614322406!2d31.340896723797858!3d30.07076201732215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583ff1deb96c89%3A0xdf10f83c928901ad!2z2LTYsdmD2Kkg2KrYtdmF2YrZhSDZhdmI2KfZgti5INmB2Yog2YXYr9mK2YbYqSDZhti12LEgLSDYtNmF2LMg2KfZiSDYqtmJ!5e0!3m2!1sar!2seg!4v1713256145127!5m2!1sar!2seg"
+                  class="w-100"
+                  width="500"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              </div>
+            </div>
+          </div>
+          <p class="footer-end">جميع الحقوق محفوطة لدينا @ موقع تعريفي لشركة سياحة</p>
+        </div>
+      </footer>
+    </div>
+    <!-- mobile navbar -->
+
+    <nav class="mobile-navigation">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-4">
+            <div class="logo">
+              <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo" /></a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div
+              class="menu-icon d-flex align-items-center justify-content-end"
+            >
+              <div class="open-icon">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <div class="exit-icon">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <div class="select-box px-0">
+                <div class="dropdown px-0">
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-chevron-down"> </i> <span>EN</span>
+                  </div>
+                  <div class="dropdown-content">
+                    <p>AR</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-12">
+            <div class="list-container">
+              <ul class="nav-list">
+                <li
+                  class="d-flex w-100 align-items-center justify-content-between"
+                >
+                  <div class="logo">
+                    <a href="index.html">     <img src="./assets/images/logo.png" alt="" srcset="" /></a>
+                  </div>
+                </li>
+                <li>
+                  <a href="index.html">الرئيسية</a>
+                </li>
+                <li>
+                  <a   href="about-us.html">من نحن</a>
+                </li>
+                <li>
+                  <div class="dropdown-nav-list">
+                    <a class="dropbtn-mobile " href="Trips-info.html"
+                      >الرحلات
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                      <div id="myDropdownMobile" class="dropdown-content-mobile">
+                      <a href="trips-1.html">مشاهدة الرحلات</a>
+                      <a href="trips-show-2.html">مشاهدة الرحلات</a>
+                      <a href="#">مشاهدة الرحلات</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="active" href="Gallery-img.html">معرض الصور</a>
+                </li>
+                <li>
+                  <a href="#">المدونة</a>
+                </li>
+                <li>
+                  <a href="#">آراء العملاء</a>
+                </li>
+                <li>
+                  <a href="#">تواصل معنا</a>
+                </li>
+              </ul>
+              <div class="btns">
+                <a class="main-btn bg-blue">تسجيل دخول</a>
+                <a class="main-btn bg-red">انشاء حساب</a>
+              </div>
+              <div class="social-icon">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-soundcloud"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/DevolumLabs?mibextid=PlNXYD"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="assets/js/fancybox.umd.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
